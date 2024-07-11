@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let email = "jeff@cndcv.com";
+        let senha = "12345678";
+        let validEmail = prompt("digite seu email");
+        let validSenha = prompt("Digite sua senha");
+
+        if(email == validEmail && senha == validSenha){
+            alert("usuario logado");
+        }
+        else{
+            console.log("senha ou email incorreto");
+            let novaChanceEmail = prompt("digite seu email dnv")
+            let novaChanceSenha = prompt("digite sua senha dnv")
+            if(novaChanceEmail == email && novaChanceSenha == senha){
+            console.log("agora deu certo")
+            }else{
+            console.log("não deu certo dnv")
+                }
+        }
+
+       
+        
+    </script>
+</head>
+<body>
+</body>
+</html>

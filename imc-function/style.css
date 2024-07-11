@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(195, 201, 206);
+}
+
+button{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(92, 194, 194);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.resultado{
+    text-align: center;
+}
