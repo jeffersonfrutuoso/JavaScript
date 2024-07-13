@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Lista de usuarios</h1>
-    <div class="card" id="user-card"></div>
+    <div class="container">
+        <h1>Lista de Usuarios</h1>
+        <input type="text" id="nacionalidade" placeholder="Pesquisar Usuario">
+        <button onclick="buscarUsers()">Buscar</button>
+    </div>
+    <div id="user-card" class="card-container" ></div>
+    <p id="erro" class="erro" style="display: none;"></p>
     <script src="script.js"></script>
 </body>
 </html>
